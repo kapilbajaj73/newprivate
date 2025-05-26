@@ -1,0 +1,53 @@
+rudranshbajaj@Rudranshs-MacBook-Air SecureConference-1 % sh ./build-android-apk.sh
+=======================================
+  Building Android APK for Onra Voice  
+=======================================
+Checking dependencies...
+Installing necessary packages...
+
+up to date, audited 751 packages in 1s
+
+7 moderate severity vulnerabilities
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Step 1: Building web app...
+Running npm build command...
+vite v5.4.14 building for production...
+transforming (1) index.htmlBrowserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+✓ 2051 modules transformed.
+warnings when minifying css:
+▲ [WARNING] Expected identifier but found "-" [css-syntax-error]
+
+    <stdin>:2056:2:
+      2056 │   -: .;
+           ╵   ^
+
+
+../dist/public/index.html                   2.09 kB │ gzip:   0.89 kB
+../dist/public/assets/index-DfgUBFNk.css   69.25 kB │ gzip:  12.06 kB
+../dist/public/assets/index-CM6D27S1.js   525.43 kB │ gzip: 156.56 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 1.48s
+Step 2: Setting up Android platform...
+Adding Android platform...
+✔ Adding native android project in android in 16.06ms
+✔ add in 16.23ms
+✖ copy android - failed!
+[error] The web assets directory (./dist) must contain an index.html file.
+        It will be the entry point for the web portion of the Capacitor app.
+✔ Updating Android plugins in 7.01ms
+✖ update android - failed!
+[error] Error: ENOENT: no such file or directory, open
+        '/Users/rudranshbajaj/Downloads/SecureConference-1/android/app/src/main/assets/capacitor.plugins.json'
