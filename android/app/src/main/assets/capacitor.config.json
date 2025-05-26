@@ -1,0 +1,12 @@
+{
+	"appId": "com.onravoice.app",
+	"appName": "Onra Voice",
+	"webDir": "dist/public",
+	"android": {
+		"allowMixedContent": true,
+		"backgroundColor": "#1A1F2C",
+		"captureInput": true,
+		"webContentsDebuggingEnabled": true,
+		"useLegacyBridge": false
+	}
+}

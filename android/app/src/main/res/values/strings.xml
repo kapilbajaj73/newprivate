@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Onra Voice</string>
+    <string name="title_activity_main">Onra Voice</string>
+    <string name="package_name">com.onravoice.app</string>
+    <string name="custom_url_scheme">com.onravoice.app</string>
+</resources>

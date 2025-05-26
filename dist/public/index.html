@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Onra Voice - Secure Virtual Conference</title>
+    <meta name="description" content="Secure virtual conference application with end-to-end encryption, audio isolation, and advanced Android integration for seamless and engaging communication." />
+    <meta name="theme-color" content="#1A1F2C" />
+    
+    <!-- PWA/Mobile support -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Onra Voice" />
+    <meta name="application-name" content="Onra Voice" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Prevent iOS from detecting phone numbers and formatting them -->
+    <meta name="format-detection" content="telephone=no" />
+    
+    <!-- iOS splash screen and icon support -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    
+    <!-- Open Graph tags for better social media sharing -->
+    <meta property="og:title" content="Onra Voice - Secure Virtual Conference" />
+    <meta property="og:description" content="Secure virtual conference application with end-to-end encryption and audio isolation." />
+    <meta property="og:type" content="website" />
+    
+    <!-- Disable pinch zoom for WebRTC application -->
+    <script>
+      document.addEventListener('gesturestart', function(e) {
+        e.preventDefault();
+      });
+    </script>
+    <script type="module" crossorigin src="/assets/index-CM6D27S1.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DfgUBFNk.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- This script only runs in development environment -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+  </body>
+</html>
